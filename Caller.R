@@ -4,6 +4,8 @@ SimpleSim <- function(..., fun, pairwise=F) {
   # entered as vectors. In pairwise form it acts much like apply. In non-
   # paiwise form it makes a combination of each possible parameter mix
   # in a manner identical to block of nested loops.
+  # Basec on code released:
+  # http://www.econometricsbysimulation.com/2013/07/simulation-of-blackjack-odds-are-not.html
   
   returner <- NULL
   L        <- list(...)
